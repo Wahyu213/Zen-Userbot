@@ -51,5 +51,4 @@ Gabung [Grup Support](https://t.me/OkaeriUserbot) Dan [Channel Update](https://t
 *   [Apis](https://github.com/apisuserbot/King-Userbot)     King - Userbot
 *   [Vicky](https://github.com/Vckyou/Geez-Project)    Geez - Project 
 *   [Koala](https://github.com/ManusiaRakitan/Kampang-Bot)    Kampang - Bot
-*   [Risman](https://github.com/mrismanaziz/Man-Userbot)   Man - Userbot
 *   DAN TERIMAKASIH KEPADA USERBOT LAINNYA
