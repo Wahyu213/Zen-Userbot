@@ -890,19 +890,26 @@ with bot:
                     link_preview=True,
                 )
             else:
-                result = builder.article(" **⚡𝐙𝐄𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​⚡**",
-                                         text="""°𝐙𝐄𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓°""",
-                                         buttons=[[custom.Button.url("okaeri​",
-                                                                     "https://github.com/Okaeri-Project/Zen-userbot"),
-                                                   custom.Button.url("ᴄʜᴀɴɴᴇʟ​",
-                                                                     "t.me/nbzoning"),
-                                                   ],
-                                                  [custom.Button.url("ʟɪᴄᴇɴsᴇ​",
-                                                                     "https://github.com/Okaeri-Project/Zen-Userbot/LICENSE",
-                                                                     )],
-                                                  ],
-                                         link_preview=False,
-                                         )
+                result = builder.article(
+                    " **⚡𝐙𝐄𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​⚡**",
+                    text="""°𝐙𝐄𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓°""",
+                    buttons=[
+                        [
+                            custom.Button.url(
+                                "okaeri​",
+                                "https://github.com/Okaeri-Project/Zen-userbot"),
+                            custom.Button.url(
+                                "ᴄʜᴀɴɴᴇʟ​",
+                                "t.me/nbzoning"),
+                        ],
+                        [
+                            custom.Button.url(
+                                "ʟɪᴄᴇɴsᴇ​",
+                                "https://github.com/Okaeri-Project/Zen-Userbot/LICENSE",
+                            )],
+                    ],
+                    link_preview=False,
+                )
             await event.answer([result] if result else None)
 
         @ tgbot.on(
