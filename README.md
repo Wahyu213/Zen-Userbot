@@ -13,7 +13,7 @@
 ### Disclaimer 
 ```
              ⚠️ PERINGATAN UNTUK ANDA ⚠️ ️
-   Flicks-Userbot digunakan untuk membantu aktifitas akun anda di telegram
+   Zen-Userbot digunakan untuk membantu aktifitas akun anda di telegram
    Kami tidak bertanggung jawab atas apa yang anda salah gunakan pada repository ini!
       Hati hati dalam penggunaan pada repository ini !
    Jika salah satu member salah gunakan repository ini , kami terpaksa harus melakukan gban kepada anda 
