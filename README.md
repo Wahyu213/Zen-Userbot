@@ -27,7 +27,7 @@
 
 
 ## DEPLOY TO HEROKU 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Okaeri-Project/Zen-Userbot.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Wahyu213/Zen-Userbot.git)
 
 
 ### Tutorial Deploy
