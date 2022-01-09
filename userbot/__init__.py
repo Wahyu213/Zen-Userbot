@@ -109,7 +109,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/okaeri-project/Zen-userbot"
+    "UPSTREAM_REPO_URL", "https://github.com/Wahyu213/Zen-userbot"
 )
 UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "Zen-Userbot")
 
@@ -177,7 +177,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
 # Untuk Perintah .skyzualive
-ROSE_TEKS_KUSTOM = os.environ.get("SKYZU_TEKS_KUSTOM", "")
+ROSE_TEKS_KUSTOM = os.environ.get("ZEN_TEKS_KUSTOM", "")
 
 # Untuk Mengubah Pesan Welcome
 START_WELCOME = os.environ.get("START_WELCOME", None)
@@ -897,7 +897,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "okaeri​",
-                                "https://github.com/Okaeri-Project/Zen-userbot"),
+                                "https://github.com/Wahyu213/Zen-userbot"),
                             custom.Button.url(
                                 "ᴄʜᴀɴɴᴇʟ​",
                                 "t.me/nbzoning"),
@@ -905,7 +905,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "ʟɪᴄᴇɴsᴇ​",
-                                "https://github.com/Okaeri-Project/Zen-Userbot/LICENSE",
+                                "https://github.com/Wahyu213/Zen-Userbot/LICENSE",
                             )],
                     ],
                     link_preview=False,
