@@ -98,9 +98,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit(
-                "`𝐙𝐄𝐍 𝐔𝐒𝐄𝐑𝐁𝐎𝐓​ Berhasil DiUpdate,Restart Tunggu Sebentar`"
-            )
+            await event.edit("`𝐙𝐄𝐍 𝐔𝐒𝐄𝐑𝐁𝐎𝐓​ Berhasil DiUpdate,Restart Tunggu Sebentar`")
             await asyncio.sleep(15)
             await event.delete()
 
@@ -203,7 +201,9 @@ async def upstream(event):
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f"**Pembaruan Untuk 𝐙𝐄𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​ :\n\n⚒️ Pembaruan Data :**\n`{changelog}`"
+        changelog_str = (
+            f"**Pembaruan Untuk 𝐙𝐄𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​ :\n\n⚒️ Pembaruan Data :**\n`{changelog}`"
+        )
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
@@ -231,9 +231,7 @@ async def upstream(event):
         await event.edit("` Proses Update 𝐙𝐄𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​, Loading....35%`")
         await event.edit("` Proses Update 𝐙𝐄𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​, Loading....77%`")
         await event.edit("` Proses Update 𝐙𝐄𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​, Updating...90%`")
-        await event.edit(
-            "` Proses Update 𝐙𝐄𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​, Mohon Tunggu Sebentar....100%`"
-        )
+        await event.edit("` Proses Update 𝐙𝐄𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​, Mohon Tunggu Sebentar....100%`")
 
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
