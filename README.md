@@ -9,7 +9,6 @@
     
 <p align="center">&nbsp;</p>
     
-    
 #### Userbot gabut hanya untuk bersenang-senang gak usah terlalu serius bro
 
 
