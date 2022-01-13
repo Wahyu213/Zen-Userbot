@@ -1,7 +1,4 @@
 <h1 align="center"><width="35px">𝐙𝐞𝐧-𝐔𝐬𝐞𝐫𝐛𝐨𝐭</h1>
-
-### Userbot gabut hanya untuk bersenang-senang gak usah terlalu serius bro
-
     
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
@@ -11,6 +8,10 @@
 </p>
     
 <p align="center">&nbsp;</p>
+    
+    
+# Userbot gabut hanya untuk bersenang-senang gak usah terlalu serius bro
+
 
 ### Disclaimer 
 ```
