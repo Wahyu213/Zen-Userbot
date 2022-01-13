@@ -43,7 +43,7 @@ Dapatkan API_KEY dan API_HASH di web my.telegram.org.
 Dapatkan STRING_SESSION di web replit
 Dapatkan BOT_TOKEN dan BOT_USERNAME di @BotFather
 Dapatkan HEROKU_API_KEY di dashboard.heroku.com/account
-Terus Nyalakan, tutorial lengkap cek di Channel Update
+Untuk tutorial yang lengkap bisa ke @okaeriUserbot atau chat owner @zenfrans
 ```
 
 
