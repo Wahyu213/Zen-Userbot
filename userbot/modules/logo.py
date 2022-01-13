@@ -16,7 +16,7 @@ async def _(event):
         await event.edit("`Give a name too!`")
     else:
         await event.edit("`Processing`")
-    chat = "@SkyzuRobot"
+    chat = "@OkaeriRobot"
     async with event.client.conversation(chat) as conv:
         try:
             msg = await conv.send_message(f"/logo {text}")
