@@ -13,8 +13,8 @@ import random
 from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterPhotos
 
-from userbot import ALIVE_NAME, CMD_HELP
 from userbot.events import register
+from userbot import CMD_HELP, ALIVE_NAME
 
 # ================= CONSTANT =================
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
@@ -83,10 +83,9 @@ async def logo_gen(event):
     )
     x = (image_width - w) / 2
     y = (image_height - h) / 2
-    draw.text(
-        (x, y), name, font=font, fill="white", stroke_width=strke, stroke_fill="black"
-    )
-    flnme = f"Zen-Userbot.png"
+    draw.text((x, y), name, font=font, fill="white",
+              stroke_width=strke, stroke_fill="black")
+    flnme = f"knbot.png"
     img.save(flnme, "png")
     await xx.edit("`Selesai!`")
     if os.path.exists(flnme):
@@ -105,4 +104,5 @@ async def logo_gen(event):
             os.remove(font_)
 
 
-CMD_HELP.update({"logo": "Cmd: `.logo <text>`" "\n↳ : Hasilkan logo dari Teks."})
+CMD_HELP.update({"logo": "Cmd: `.logo <text>`"
+                 "\n↳ : Hasilkan logo dari Teks."})
