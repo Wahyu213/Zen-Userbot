@@ -55,7 +55,6 @@ Gabung [Grup Support](https://t.me/OkaeriUserbot) Dan [Channel Update](https://t
 
 🔰 **THANKS YOU TO**
 *   [Kennedy](https://github.com/KennedyProject/KEN-UBOT)    Ken - Userbot
-*   [Apis](https://github.com/apisuserbot/King-Userbot)     King - Userbot
 *   [Vicky](https://github.com/Vckyou/Geez-Project)    Geez - Project 
 *   [Koala](https://github.com/ManusiaRakitan/Kampang-Bot)    Kampang - Bot
 *   [Skyzu](https://github.com/skyzu/Skyzu-userbot)    Skyzu - Userbot
