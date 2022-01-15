@@ -8,9 +8,6 @@
 </p>
     
 <p align="center">&nbsp;</p>
-   
-
-[![Zen](https://user-images.githubusercontent.com/91831925/149602761-2c57061e-4f11-4428-a804-b5e3949d0a2f.mp4)]
 
     
 #### Userbot gabut hanya untuk bersenang-senang gak usah terlalu serius bro
