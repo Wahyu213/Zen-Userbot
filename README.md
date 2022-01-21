@@ -26,7 +26,7 @@ ______________________
 
 ### Generate String Using Replit
 
-[![UBOT-STRING](https://img.shields.io/badge/run-string__session.py-blue?style=for-the-badge&logo=repl.it)](http://replit.com/@Wahyu2131/String-Okaeri-Userbot?lite=1&outputonly=1#main.py)
+[![UBOT-STRING](https://img.shields.io/badge/run-string__session.py-blue?style=for-the-badge&logo=repl.it)](https://replit.com/@Wahyu2131/String-Zenfrans?lite=1&outputonly=1#main.py)
 
 
 ### Deploy To Heroku
